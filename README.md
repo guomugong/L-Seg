@@ -1,5 +1,6 @@
 # L-Seg
 L-Seg: An End-to-End Unified Framework for Multi-lesion Segmentation of Fundus Images
+
 Please read our [paper] (https://doi.org/10.1016/j.neucom.2019.04.019) for more details!
 ### Introduction:
 Diabetic retinopathy and diabetic macular edema are the two leading causes for blindness in working-age people, and the quantitative and qualitative diagnosis of these two diseases usually depends on the presence and areas of lesions in fundus images. The main related lesions include soft exudates, hard exudates, microaneurysms, and haemorrhages. However, segmentation of these four kinds of lesions is difficult due to their uncertainty in size, contrast, and high interclass similarity. Therefore, we aim to design a multi-lesion segmentation model.
@@ -21,7 +22,7 @@ layer {
   }
 }
 
-
+```
 ## License
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/zh_CN)
